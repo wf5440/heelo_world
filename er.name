@@ -1,0 +1,27 @@
+user.name=wf5440
+user.email=wf3046529861@gmail.com
+init.defaultbranch=main
+pull.rebase=false
+push.default=simple
+branch.autosetupmerge=always
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.st=status
+alias.co=checkout
+alias.br=branch
+alias.ci=commit
+alias.last=log -1 HEAD
+core.autocrlf=input
+core.editor=code --wait
+core.protectntfs=false
+core.preloadindex=true
+core.fscache=true
+color.ui=auto
+color.branch.current=yellow reverse
+color.branch.local=yellow
+color.branch.remote=green
+color.status.changed=yellow
+color.status.untracked=red
+core.bare=false
+core.repositoryformatversion=0
+core.filemode=true
+core.logallrefupdates=true
